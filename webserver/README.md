@@ -1,7 +1,7 @@
 1. 本项目是对<a href="https://github.com/shijiantian/OAuth2">OAuth2</a>项目和其前端项目<a href="https://github.com/shijiantian/webClient">webClient</a>进行docker镜像打包与运行的项目<br>
 2. 执行项目下的脚本<br>
 ```
-sh build.sh
+sh buildImage.sh
 ```
 进行镜像打包<br>
 3. 已打包好的镜像dockerhub下载
