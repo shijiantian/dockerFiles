@@ -3,7 +3,7 @@
 ```
 sh buildImage.sh
 ```
-进行镜像打包<br>
+&nbsp;&nbsp;进行镜像打包<br>
 3. 已打包好的镜像dockerhub下载
 ```
 docker pull shijiantian/webserver:1.0
@@ -18,11 +18,11 @@ docker pull redis
 ```
 sh run_docker_images.sh
 ```
-运行镜像<br>
+&nbsp;&nbsp;运行镜像<br>
 6. 镜像运行之后访问
 <a href="http://127.0.0.1/webClient/login.html">http://127.0.0.1/webClient/login.html</a>进入登陆页面<br>
-访问<a href="http://127.0.0.1:8083/swagger-ui.html">http://127.0.0.1:8083/swagger-ui.html</a>进入swagger页面<br>
-7. 内置管理员用户:daming，密码:123456;ClientId：myClient,secret:mypassword。<br>swagger-ui页面授权需要点击<font color=red>右上角Authorize</font>按钮，填写用户名密码、在Setup client authentication下方选择Basic auth并填写CliendId和secret;之后选择scope点击下方的Authorize按钮完成授权
+&nbsp;&nbsp;访问<a href="http://127.0.0.1:8083/swagger-ui.html">http://127.0.0.1:8083/swagger-ui.html</a>进入swagger页面<br>
+7. 内置管理员用户:daming，密码:123456;ClientId：myClient,secret:mypassword。<br>swagger-ui页面授权需要点击<font color=red>右上角Authorize</font>按钮，填写用户名密码、在Setup client authentication下方选择Basic auth并填写CliendId和secret;之后选择scope点击下方的Authorize按钮完成授权<br>
 8. 停止并删除容器运行
 ```
 sh clean_docker_containers.sh
